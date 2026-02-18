@@ -1,0 +1,55 @@
+# OMEGA v4 TITANIUM - Git Ignore
+
+# Environment variables (NEVER commit!)
+.env
+
+# Database (contains sensitive business data)
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+system_log.json
+activity_now.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/

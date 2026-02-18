@@ -1,0 +1,152 @@
+╔═══════════════════════════════════════════════════════════════╗
+║                                                               ║
+║      💎 OMEGA v4 TITANIUM PRO - Ready-to-Run Project 💎      ║
+║                                                               ║
+╚═══════════════════════════════════════════════════════════════╝
+
+🎉 ТОВА Е ПЪЛЕН РАБОТЕЩ ПРОЕКТ!
+
+Всичко е вече интегрирано и готово за стартиране.
+
+═══════════════════════════════════════════════════════════════
+
+⚡ БЪРЗ СТАРТ (5 СТЪПКИ):
+
+1️⃣ SETUP .ENV FILE
+   cp .env.template .env
+   
+   Редактирай .env и добави Gemini API key:
+   GEMINI_API_KEY=your_api_key_here
+   
+   Вземи безплатен key от:
+   https://makersuite.google.com/app/apikey
+
+2️⃣ INSTALL DEPENDENCIES
+   pip install -r requirements.txt
+
+3️⃣ (OPTIONAL) SETUP OLLAMA
+   За bulletproof AI:
+   
+   ollama serve
+   ollama pull llama3.1:8b
+   
+   Ollama е optional, но СИЛНО препоръчителен!
+
+4️⃣ INITIALIZE DATABASE
+   python update_database.py
+   python test_integration.py
+
+5️⃣ START OMEGA
+   streamlit run app.py
+   
+   или двоен клик на START.bat (Windows)
+
+═══════════════════════════════════════════════════════════════
+
+🔑 LOGIN CREDENTIALS:
+
+Username: Shadow
+Password: shadow123
+
+или
+
+Username: Maria
+Password: maria123
+
+(Можеш да ги промениш в .env файла)
+
+═══════════════════════════════════════════════════════════════
+
+✨ КАКВО СЪДЪРЖА?
+
+✅ OMEGA v4 Titanium - Пълна бизнес платформа
+   • 9 core modules
+   • Dual-user workflow
+   • Business intelligence
+
+✅ AI Router Integration - Bulletproof AI
+   • Gemini → Ollama → Generic failover
+   • Поддръжка за ВСИЧКИ типове файлове
+   • Web search fallback
+   • Never crashes при rate limit
+
+✅ Complete & Ready
+   • Всичко е интегрирано
+   • Production-ready код
+   • Пълна документация
+
+═══════════════════════════════════════════════════════════════
+
+📂 ФАЙЛОВА СТРУКТУРА:
+
+omega_v4_titanium_pro/
+├── app.py                    Main app
+├── config.py                 Config (AI Router enabled)
+├── ai/                       AI Router module
+│   ├── providers/
+│   ├── helpers/
+│   └── analyzers/
+├── ai_router_wrapper.py      Integration
+├── .env.template             Копирай като .env!
+├── requirements.txt          Dependencies
+└── Documentation/            Full docs
+
+═══════════════════════════════════════════════════════════════
+
+🎯 NEXT STEPS:
+
+1. Прочети README.md - кратък overview
+2. Setup .env file с твоя API key
+3. pip install -r requirements.txt
+4. python update_database.py
+5. python test_integration.py
+6. streamlit run app.py
+7. Login и тествай!
+
+═══════════════════════════════════════════════════════════════
+
+📚 ДОКУМЕНТАЦИЯ:
+
+• README.md - Quick start guide
+• USER_GUIDE.md - Complete user manual
+• PROJECT_SUMMARY.md - Technical details
+• ai/README.md - AI Router documentation
+
+═══════════════════════════════════════════════════════════════
+
+🆘 TROUBLESHOOTING:
+
+Problem: "Module ai not found"
+→ Check ai/ folder exists
+
+Problem: "API key not found"
+→ Edit .env file, add GEMINI_API_KEY
+
+Problem: "Ollama not available"
+→ Run: ollama serve
+
+Problem: "Rate limit"
+→ Expected! Fallback activates automatically
+
+═══════════════════════════════════════════════════════════════
+
+✅ SUCCESS CHECKLIST:
+
+□ .env file created with API key
+□ Dependencies installed
+□ update_database.py run (successful)
+□ test_integration.py run (PASSED)
+□ streamlit run app.py (works)
+□ Login successful
+□ Dashboard loads
+□ Scanner works
+
+═══════════════════════════════════════════════════════════════
+
+Version: 4.0.0 PRO
+Date: February 2026
+Built for: Shadow & Maria
+
+УСПЕХ! 🚀
+
+═══════════════════════════════════════════════════════════════
